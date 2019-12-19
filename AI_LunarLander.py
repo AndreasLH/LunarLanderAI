@@ -53,20 +53,7 @@ while not exit_program:
                 right = False
                 env.reset()
 
-    # INSERT YOUR CODE HERE
-    #
-    # Implement a Lunar Lander AI 
-    # Control the rocket by writing a list of if-statements that control the 
-    # three rockets on the lander 
-    #
-    # The information you have available are x, y, xspeed, and yspeed
-    # 
-    # You control the rockets by setting the variables boost, left, and right
-    # to either True or false
-    #
-    # Example, to get you started. If the rocket is close to the ground, turn
-    # on the main booster
-    
+   
     #yspeed er positiv nedad
     #xspeed er positiv til højre
     #x er 0 midt på landingsplads, positiv til højre og negativ til venstre
@@ -139,8 +126,5 @@ while not exit_program:
 
         print("average fuel: " + str(round(average_fuel,4)))
         print("average time: " + str(round(average_time,4)))
-     
-    # Modify and add more if-statements to make the rocket land safely
-    # END OF YOUR CODE
 
 env.close()
